@@ -10,7 +10,7 @@ client = TelegramClient('forwarder_bot', config.API_ID, config.API_HASH).start(b
 
 def get_caption(msg):
     text = msg.text or ''
-    prefix = "📥 Forwarded via @YourBotName"
+    prefix = "📥 Forwarded via @CGM_Files"
     return f"{prefix}\n\n📝 Original: {text}" if text else prefix
 
 def get_buttons():
