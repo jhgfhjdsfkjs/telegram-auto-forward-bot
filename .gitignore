@@ -1,0 +1,5 @@
+# Do not upload your secrets
+config.py
+__pycache__/
+*.pyc
+.env
